@@ -92,9 +92,7 @@
             background: #f44;
             height: 2px;
             width: 200px;
-            right: 44px;
-            position: absolute;
-            top: 89px;
+
 
 
         }
@@ -171,7 +169,7 @@
             .social-icons ul {
                 position: absolute;
                 /* right: 287px; */
-                bottom: -180px;
+                bottom: -270px;
                 display: flex;
             }
             .social-icons i {
@@ -187,7 +185,7 @@
         /* gallery */
 
         .about-gallery-section {
-            background: linear-gradient(70deg, #360879, #000, #000bb0);
+            background: linear-gradient(70deg, #000, #000, #350202);
         }
 
         .about-gallery-section h2 {
@@ -220,8 +218,8 @@
         }
 
         .thumbnail img {
-            border-radius: 20px;
-            border: 3px solid rgb(255, 255, 255);
+            border-radius: 10px;
+            /* border: 3px solid rgb(255, 255, 255); */
             box-shadow: 28px 24px 67px 0px #ffffff38;
         }
 
@@ -246,8 +244,7 @@
             .thumbnail img {
                 height: 175px;
                 width: 208px;
-                border: 2px solid rgb(255, 255, 255);
-            }
+        }
         }
 
 
@@ -308,7 +305,7 @@
         .contact-section {
             text-align: center;
             padding: 3rem 0;
-            background-color: #f0f0f0;
+            background: linear-gradient(70deg, #fff, #c47d7d, #040004);
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
@@ -330,9 +327,9 @@
             width: 100%;
             padding: 0.5rem;
             margin-bottom: 1rem;
-            border: 1px solid #ccc;
+            border: 1px solid #000000;
             border-radius: 10px;
-            background-image: linear-gradient(to right, #DC2424 0%, #0B0B0B 51%, #DC2424 100%);
+            background-image: linear-gradient(70deg, #1e1515, #c47d7d, #040004);
             color: white;
         }
 
@@ -347,6 +344,14 @@
         .contact-form button:hover {
             background-color: #444;
         }
+
+        @media screen and (max-width: 768px){
+            .contact-form {
+                width: 100%;
+                padding: 1rem;
+            }
+        }
+
 
 
 
@@ -367,7 +372,7 @@
         }
 
         iframe {
-            width: 70%;
+            width: 100%;
             filter: invert(100%);
         }
 
@@ -439,7 +444,7 @@
             justify-content: space-evenly;
             align-content: center;
             padding: 3rem;
-            background: linear-gradient(70deg, #360879, #930963, #051986);
+            background: linear-gradient(70deg, #000, #4a4a4a, #535353);
 
 
         }
